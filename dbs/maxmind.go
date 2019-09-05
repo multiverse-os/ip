@@ -7,7 +7,6 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"github.com/tenta-browser/tenta-dns/log"
 	"io"
 	"io/ioutil"
 	"net/http"
@@ -17,6 +16,7 @@ import (
 	"time"
 
 	"github.com/syndtr/goleveldb/leveldb"
+	"github.com/tenta-browser/tenta-dns/log"
 )
 
 // TODO: Migrate this to a yaml configuration for ease of updating, or at least
